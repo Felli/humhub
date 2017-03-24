@@ -1,6 +1,6 @@
 <?php
 return array (
-  '<strong>Confirm</strong> Action' => '',
+  '<strong>Confirm</strong> Action' => '<strong>Conferma</strong> azione',
   '<strong>Latest</strong> updates' => '<strong>Ultimi</strong> aggiornamenti',
   '<strong>Mail</strong> summary' => '',
   'Account settings' => 'Impostazioni account',
@@ -51,8 +51,8 @@ return array (
   'The date has to be in the past.' => 'La data deve essere nel passato.',
   'The file has been deleted.' => '',
   'The requested resource could not be found.' => '',
-  'The space has be archived.' => '',
-  'The space has be unarchived.' => '',
+  'The space has been archived.' => '',
+  'The space has been unarchived.' => '',
   'Unsubscribe' => 'Cancella sottoscrizione',
   'User not found!' => 'Utente non trovato!',
   'You are not allowed to run this action.' => '',
