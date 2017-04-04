@@ -1,20 +1,21 @@
 <?php
 
 use yii\helpers\Html;
+use yii\widgets\ActiveForm;
 
 $this->pageTitle = Yii::t('UserModule.views_auth_createAccount', 'Create Account');
 ?>
 
 <div class="container" style="text-align: center;">
-    <h1 id="app-title" class="animated fadeIn"><?php echo Html::encode(Yii::$app->name); ?></h1>
+    <h1 id="app-title" class="animated fadeIn"><?= Html::encode(Yii::$app->name); ?></h1>
     <br/>
     <div class="row">
         <div id="create-account-form" class="panel panel-default animated bounceIn" style="max-width: 500px; margin: 0 auto 20px; text-align: left;">
-            <div class="panel-heading"><?php echo Yii::t('UserModule.views_auth_createAccount', '<strong>Account</strong> registration'); ?></div>
+            <div class="panel-heading"><?= Yii::t('UserModule.views_auth_createAccount', '<strong>Account</strong> registration'); ?></div>
             <div class="panel-body">
-                <?php $form = \yii\widgets\ActiveForm::begin(['enableClientValidation' => false]); ?>
-                <?php echo $hForm->render($form); ?>
-                <?php \yii\widgets\ActiveForm::end(); ?>
+                <?php $form = ActiveForm::begin(['enableClientValidation' => false]); ?>
+                <?= $hForm->render($form); ?>
+                <?php ActiveForm::end(); ?>
             </div>
         </div>
     </div>
